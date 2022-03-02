@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 1%;
+}
+body{width:90%;}
+body{
+    background-image: url(../images/xm.jpg) ;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center
+}
+
+#xml{
+    
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0rem;
+    margin-top: 0%;
+}
+
+
+#infox{
+    align-content: center;
+    padding: 1rem;
+    border: 5px solid rgb(255, 196, 0);
+    background-color: rgb(255, 17, 0);
+    margin: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#menu{
+    align-content: center;
+    padding: 1rem;
+    border: 5px solid rgb(255, 196, 0);
+    background-color: rgb(255, 17, 0);
+    margin: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 1%;
+}
+body{
+    background-image: url(../images/JSA.jpg) ;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+#titulo{
+    align-content: center;
+    border: 6px solid rgb(39, 4, 17);
+    background-color: rgb(192, 34, 73);
+    padding: 1rem;
+    margin: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#historia{
+    align-content: center;
+    padding: 1rem;
+    border: 5px solid rgb(28, 28, 31);
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(28, 28, 31);
+}
+
+#menu{
+    align-content: center;
+    border: 6px solid rgb(223, 212, 216);
+    background-color: rgb(192, 34, 73);
+    padding: 1rem;
+    margin: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25;
+    color: white;
+}

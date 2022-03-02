@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="js/validacion.js" ></script>
+    <link rel="stylesheet" href="css/06Style.css">
+
+</head>
+<body>
+
+    <div class="container-form" id="conte" align="center">
+        <form method="post" name="formulario" 
+        onsubmit="return validar(this)"  action="">
+            <br>
+            <p>
+                <img src="images/chayanne.jpg" align="right" width="50%">
+            </p>
+            <p>Todos tienen un personaje o una historia favorita
+                <p></p>
+                <br>
+                <label> Personaje favorito: </label> 
+                <br>
+                <p></p>
+                <input type="text" name="personaje" id="personaje" >
+                <p></p>
+                <br>
+                <label> Historia Favorita: </label> 
+                <br>
+                <p></p>
+                <input type="text" name="historia" id="historia" >
+                <br>
+            </p>
+            <br>
+            <input type="submit" name="enviar" value="Enviar Datos">
+            <br>
+            <input type="reset" name="borrar" value="Borrar Datos" >
+
+    <div id="menu">
+        <a href="01Menu.HTML">Menu</a>
+    </div>
+</body>
+</html>
